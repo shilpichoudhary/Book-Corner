@@ -1,0 +1,169 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    scroll-behavior: smooth;
+}
+
+.navbar {
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.navbar-brand {
+    font-weight: bold;
+    color: #2c3e50;
+}
+
+.nav-link {
+    color: #34495e;
+    margin: 0 10px;
+}
+
+.nav-link:hover {
+    color: #3498db;
+}
+
+.hero {
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('images/hero.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    color: white;
+    padding-top: 76px;
+}
+
+.hero h1 {
+    font-size: 3.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+section {
+    padding: 80px 0;
+}
+
+.book-card {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+    transition: transform 0.3s;
+}
+
+.book-card:hover {
+    transform: translateY(-5px);
+}
+
+.book-card img {
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.book-card h3 {
+    font-size: 1.4rem;
+    color: #2c3e50;
+}
+
+.category-box {
+    background: #f8f9fa;
+    padding: 30px;
+    text-align: center;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    transition: background-color 0.3s;
+}
+
+.category-box:hover {
+    background: #e9ecef;
+}
+
+.contact {
+    background: #f8f9fa;
+}
+
+.form-control {
+    margin-bottom: 15px;
+    padding: 12px;
+    border: 1px solid #dee2e6;
+}
+
+.btn-primary {
+    background: #3498db;
+    border: none;
+    padding: 12px 30px;
+}
+
+.btn-primary:hover {
+    background: #2980b9;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 50px;
+    color: #2c3e50;
+    position: relative;
+    padding-bottom: 15px;
+}
+
+h2::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 60px;
+    height: 3px;
+    background: #3498db;
+}
+
+.footer {
+    background: #2c3e50;
+    color: #ecf0f1;
+    padding: 60px 0 30px;
+}
+
+.footer h5 {
+    color: #3498db;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+.footer-links {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links li {
+    margin-bottom: 10px;
+}
+
+.footer-links a {
+    color: #ecf0f1;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.footer-links a:hover {
+    color: #3498db;
+}
+
+.social-links a {
+    color: #ecf0f1;
+    font-size: 1.5rem;
+    margin-right: 15px;
+    transition: color 0.3s;
+}
+
+.social-links a:hover {
+    color: #3498db;
+}
+
+.footer-bottom {
+    border-top: 1px solid #34495e;
+    margin-top: 40px;
+    padding-top: 20px;
+    text-align: center;
+}
